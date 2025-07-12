@@ -1,0 +1,16 @@
+Calculated Diversity Strengths
+==================================================
+
+Runtime Diversity (Test Dataset):
+NOTE: Runtime diversity is calculated without using actual labels - based only on model predictions
+Model_A_aychang/roberta-base-imdb: 0.2172
+Model_B_RandomForestClassifier: 0.2264
+Model_C_SVC: 0.1289
+Model_D_XGBClassifier: 0.1266
+
+
+Training Diversity:
+Model_A_aychang/roberta-base-imdb: 0.1381
+Model_B_RandomForestClassifier: 0.0898
+Model_C_SVC: 0.0912
+Model_D_XGBClassifier: 0.1031

@@ -1,0 +1,15 @@
+Individual Model Metrics
+==================================================
+
+Test Dataset Metrics:
+Model: aychang/roberta-base-imdb           | Acc: 0.9467 | Prec: 0.9362 | F1: 0.9473 | Rec: 0.9586
+Model: RandomForestClassifier(n_estimators=1000) | Acc: 0.8600 | Prec: 0.8545 | F1: 0.8611 | Rec: 0.8678
+Model: SVC                                 | Acc: 0.8346 | Prec: 0.8440 | F1: 0.8324 | Rec: 0.8210
+Model: XGBClassifier                       | Acc: 0.8536 | Prec: 0.8422 | F1: 0.8560 | Rec: 0.8702
+
+
+Train Dataset Metrics:
+Model: aychang/roberta-base-imdb           | Acc: 0.9830 | Prec: 0.9808 | F1: 0.9830 | Rec: 0.9852
+Model: RandomForestClassifier(n_estimators=1000) | Acc: 1.0000 | Prec: 1.0000 | F1: 1.0000 | Rec: 1.0000
+Model: SVC                                 | Acc: 1.0000 | Prec: 0.9999 | F1: 1.0000 | Rec: 1.0000
+Model: XGBClassifier                       | Acc: 0.9447 | Prec: 0.9315 | F1: 0.9455 | Rec: 0.9599

@@ -1,0 +1,191 @@
+Top Ensemble Scores by Metric - RUNTIME DIVERSITY (RF=25000)
+================================================================================
+NOTE: Performance weighting uses all four Train metrics (Accuracy, F1, Precision, Recall)
+NOTE: Runtime diversity is calculated without using actual test labels
+
+METHODOLOGY NOTE:
+Runtime diversity calculation uses only model predictions (not labels) on the test set.
+This represents a valid batch prediction scenario where diversity among predictions
+can inform ensemble combination without using ground truth labels.
+
+Ensemble                     Weighting Type  Accuracy  F1 Score  Precision  Recall
+   A+B+C           Diversity (Runtime)   SC   0.97072  0.970806   0.967950 0.97368
+   A+B+D           Diversity (Runtime)   SC   0.97008  0.970199   0.966349 0.97408
+     A+D           Diversity (Runtime)   RC   0.97008  0.970080   0.970080 0.97008
+   A+C+D           Diversity (Runtime)   SC   0.96940  0.969460   0.967567 0.97136
+     A+D                       Average   SC   0.96872  0.968800   0.966332 0.97128
+     A+D    Performance (Train Recall)   SC   0.96800  0.968107   0.964876 0.97136
+     A+D        Performance (Train F1)   SC   0.96736  0.967477   0.964019 0.97096
+     A+D  Performance (Train Accuracy)   SC   0.96736  0.967477   0.964019 0.97096
+     A+D Performance (Train Precision)   SC   0.96696  0.967079   0.963622 0.97056
+   A+B+D Performance (Train Precision)   SC   0.96532  0.965462   0.961517 0.96944
+     A+C                       Average   SC   0.96532  0.965332   0.964985 0.96568
+   A+B+D        Performance (Train F1)   SC   0.96516  0.965300   0.961432 0.96920
+   A+B+D  Performance (Train Accuracy)   SC   0.96512  0.965262   0.961355 0.96920
+   A+B+D    Performance (Train Recall)   SC   0.96492  0.965061   0.961194 0.96896
+   A+B+D                       Average   SC   0.96444  0.964592   0.960498 0.96872
+     A+C    Performance (Train Recall)   SC   0.96428  0.964284   0.964169 0.96440
+ A+B+C+D           Diversity (Runtime)   SC   0.96424  0.964394   0.960263 0.96856
+     A+C  Performance (Train Accuracy)   SC   0.96412  0.964119   0.964157 0.96408
+     A+C        Performance (Train F1)   SC   0.96412  0.964119   0.964157 0.96408
+     A+C Performance (Train Precision)   SC   0.96396  0.963950   0.964220 0.96368
+     A+C           Diversity (Runtime)   RC   0.96344  0.963440   0.963440 0.96344
+   A+C+D           Diversity (Runtime)   RC   0.96288  0.962880   0.962880 0.96288
+   A+B+C                       Average   SC   0.96264  0.962750   0.959917 0.96560
+   A+B+C    Performance (Train Recall)   SC   0.96228  0.962393   0.959523 0.96528
+   A+B+C  Performance (Train Accuracy)   SC   0.96220  0.962310   0.959516 0.96512
+   A+B+C        Performance (Train F1)   SC   0.96220  0.962310   0.959516 0.96512
+   A+B+C Performance (Train Precision)   SC   0.96208  0.962192   0.959361 0.96504
+     A+D Performance (Train Precision)   RC   0.96168  0.961680   0.961680 0.96168
+     A+D  Performance (Train Accuracy)   RC   0.96152  0.961520   0.961520 0.96152
+     A+D        Performance (Train F1)   RC   0.96152  0.961520   0.961520 0.96152
+     A+D    Performance (Train Recall)   RC   0.96128  0.961280   0.961280 0.96128
+     A+D                       Average   RC   0.96072  0.960720   0.960720 0.96072
+     A+B                       Average   RC   0.96056  0.960560   0.960560 0.96056
+     A+B    Performance (Train Recall)   RC   0.96024  0.960240   0.960240 0.96024
+     A+B        Performance (Train F1)   RC   0.96024  0.960240   0.960240 0.96024
+     A+B  Performance (Train Accuracy)   RC   0.96024  0.960240   0.960240 0.96024
+     A+B Performance (Train Precision)   RC   0.96016  0.960160   0.960160 0.96016
+     A+B           Diversity (Runtime)   RC   0.95952  0.959520   0.959520 0.95952
+     A+C           Diversity (Runtime)   SC   0.95504  0.955294   0.949929 0.96072
+     A+D           Diversity (Runtime)   SC   0.95476  0.955021   0.949545 0.96056
+     A+B           Diversity (Runtime)   SC   0.95368  0.954037   0.946746 0.96144
+   A+C+D Performance (Train Precision)   SC   0.95332  0.953523   0.949401 0.95768
+   A+C+D  Performance (Train Accuracy)   SC   0.95328  0.953485   0.949326 0.95768
+   A+C+D        Performance (Train F1)   SC   0.95324  0.953447   0.949251 0.95768
+     A+B Performance (Train Precision)   SC   0.95324  0.953606   0.946208 0.96112
+     A+B    Performance (Train Recall)   SC   0.95320  0.953564   0.946204 0.96104
+     A+B        Performance (Train F1)   SC   0.95320  0.953564   0.946204 0.96104
+     A+B  Performance (Train Accuracy)   SC   0.95320  0.953564   0.946204 0.96104
+   A+C+D                       Average   SC   0.95320  0.953409   0.949175 0.95768
+   A+C+D    Performance (Train Recall)   SC   0.95312  0.953325   0.949167 0.95752
+     A+B                       Average   SC   0.95280  0.953178   0.945599 0.96088
+   A+B+C           Diversity (Runtime)   RC   0.95248  0.952480   0.952480 0.95248
+     A+C                       Average   RC   0.94984  0.949840   0.949840 0.94984
+ A+B+C+D Performance (Train Precision)   SC   0.94936  0.949610   0.944946 0.95432
+ A+B+C+D  Performance (Train Accuracy)   SC   0.94900  0.949250   0.944625 0.95392
+     A+C    Performance (Train Recall)   RC   0.94896  0.948960   0.948960 0.94896
+ A+B+C+D        Performance (Train F1)   SC   0.94896  0.949212   0.944550 0.95392
+ A+B+C+D    Performance (Train Recall)   SC   0.94884  0.949103   0.944255 0.95400
+     A+C Performance (Train Precision)   RC   0.94880  0.948800   0.948800 0.94880
+     A+C  Performance (Train Accuracy)   RC   0.94880  0.948800   0.948800 0.94880
+     A+C        Performance (Train F1)   RC   0.94880  0.948800   0.948800 0.94880
+ A+B+C+D                       Average   SC   0.94868  0.948948   0.944027 0.95392
+   A+B+D           Diversity (Runtime)   RC   0.94752  0.947520   0.947520 0.94752
+       A                       Average   RC   0.94688  0.946880   0.946880 0.94688
+       A  Performance (Train Accuracy)   RC   0.94688  0.946880   0.946880 0.94688
+       A        Performance (Train F1)   RC   0.94688  0.946880   0.946880 0.94688
+       A           Diversity (Runtime)   RC   0.94688  0.946880   0.946880 0.94688
+       A    Performance (Train Recall)   RC   0.94688  0.946880   0.946880 0.94688
+       A Performance (Train Precision)   RC   0.94688  0.946880   0.946880 0.94688
+       A  Performance (Train Accuracy)   SC   0.94668  0.947306   0.936313 0.95856
+       A Performance (Train Precision)   SC   0.94668  0.947306   0.936313 0.95856
+       A    Performance (Train Recall)   SC   0.94668  0.947306   0.936313 0.95856
+       A        Performance (Train F1)   SC   0.94668  0.947306   0.936313 0.95856
+       A                       Average   SC   0.94668  0.947306   0.936313 0.95856
+       A           Diversity (Runtime)   SC   0.94668  0.947306   0.936313 0.95856
+   A+C+D        Performance (Train F1)   RC   0.94512  0.945120   0.945120 0.94512
+   A+C+D  Performance (Train Accuracy)   RC   0.94512  0.945120   0.945120 0.94512
+   A+C+D    Performance (Train Recall)   RC   0.94504  0.945040   0.945040 0.94504
+   A+C+D Performance (Train Precision)   RC   0.94504  0.945040   0.945040 0.94504
+   A+C+D                       Average   RC   0.94496  0.944960   0.944960 0.94496
+   A+B+C                       Average   RC   0.94416  0.944160   0.944160 0.94416
+ A+B+C+D           Diversity (Runtime)   RC   0.94360  0.943600   0.943600 0.94360
+   A+B+C    Performance (Train Recall)   RC   0.94360  0.943600   0.943600 0.94360
+   A+B+C        Performance (Train F1)   RC   0.94352  0.943520   0.943520 0.94352
+   A+B+C  Performance (Train Accuracy)   RC   0.94352  0.943520   0.943520 0.94352
+   A+B+C Performance (Train Precision)   RC   0.94336  0.943360   0.943360 0.94336
+   A+B+D Performance (Train Precision)   RC   0.93992  0.939920   0.939920 0.93992
+   A+B+D        Performance (Train F1)   RC   0.93984  0.939840   0.939840 0.93984
+   A+B+D  Performance (Train Accuracy)   RC   0.93984  0.939840   0.939840 0.93984
+   A+B+D    Performance (Train Recall)   RC   0.93952  0.939520   0.939520 0.93952
+   A+B+D                       Average   RC   0.93928  0.939280   0.939280 0.93928
+ A+B+C+D Performance (Train Precision)   RC   0.93408  0.934080   0.934080 0.93408
+ A+B+C+D        Performance (Train F1)   RC   0.93400  0.934000   0.934000 0.93400
+ A+B+C+D    Performance (Train Recall)   RC   0.93400  0.934000   0.934000 0.93400
+ A+B+C+D  Performance (Train Accuracy)   RC   0.93400  0.934000   0.934000 0.93400
+ A+B+C+D                       Average   RC   0.93392  0.933920   0.933920 0.93392
+   B+C+D Performance (Train Precision)   RC   0.87760  0.877600   0.877600 0.87760
+   B+C+D        Performance (Train F1)   RC   0.87744  0.877440   0.877440 0.87744
+   B+C+D  Performance (Train Accuracy)   RC   0.87744  0.877440   0.877440 0.87744
+   B+C+D    Performance (Train Recall)   RC   0.87736  0.877360   0.877360 0.87736
+   B+C+D                       Average   RC   0.87732  0.877325   0.877290 0.87736
+   B+C+D           Diversity (Runtime)   SC   0.87708  0.877983   0.871581 0.88448
+   B+C+D                       Average   SC   0.87692  0.877552   0.873070 0.88208
+   B+C+D           Diversity (Runtime)   RC   0.87672  0.876720   0.876720 0.87672
+   B+C+D    Performance (Train Recall)   SC   0.87652  0.877134   0.872792 0.88152
+   B+C+D Performance (Train Precision)   SC   0.87648  0.877041   0.873078 0.88104
+   B+C+D  Performance (Train Accuracy)   SC   0.87636  0.876965   0.872693 0.88128
+   B+C+D        Performance (Train F1)   SC   0.87636  0.876965   0.872693 0.88128
+     B+C           Diversity (Runtime)   RC   0.87336  0.873360   0.873360 0.87336
+     C+D                       Average   RC   0.87176  0.871760   0.871760 0.87176
+     C+D           Diversity (Runtime)   RC   0.87160  0.871600   0.871600 0.87160
+     C+D    Performance (Train Recall)   RC   0.87152  0.871520   0.871520 0.87152
+     C+D  Performance (Train Accuracy)   RC   0.87136  0.871360   0.871360 0.87136
+     C+D        Performance (Train F1)   RC   0.87136  0.871360   0.871360 0.87136
+     C+D Performance (Train Precision)   RC   0.87120  0.871200   0.871200 0.87120
+     B+C  Performance (Train Accuracy)   RC   0.87064  0.870640   0.870640 0.87064
+     B+C                       Average   RC   0.87064  0.870640   0.870640 0.87064
+     B+C Performance (Train Precision)   RC   0.87064  0.870640   0.870640 0.87064
+     B+C    Performance (Train Recall)   RC   0.87064  0.870640   0.870640 0.87064
+     B+C        Performance (Train F1)   RC   0.87064  0.870640   0.870640 0.87064
+     C+D                       Average   SC   0.87048  0.870480   0.870480 0.87048
+     C+D           Diversity (Runtime)   SC   0.87024  0.870209   0.870418 0.87000
+     C+D    Performance (Train Recall)   SC   0.86984  0.869788   0.870136 0.86944
+     C+D  Performance (Train Accuracy)   SC   0.86980  0.869732   0.870185 0.86928
+     C+D        Performance (Train F1)   SC   0.86976  0.869697   0.870115 0.86928
+     C+D Performance (Train Precision)   SC   0.86944  0.869356   0.869913 0.86880
+     B+C           Diversity (Runtime)   SC   0.86576  0.865921   0.864884 0.86696
+     B+D           Diversity (Runtime)   RC   0.86544  0.865440   0.865440 0.86544
+     B+D        Performance (Train F1)   RC   0.86344  0.863440   0.863440 0.86344
+     B+D  Performance (Train Accuracy)   RC   0.86344  0.863440   0.863440 0.86344
+     B+D Performance (Train Precision)   RC   0.86336  0.863360   0.863360 0.86336
+     B+D    Performance (Train Recall)   RC   0.86336  0.863360   0.863360 0.86336
+     B+D                       Average   RC   0.86328  0.863280   0.863280 0.86328
+     B+D           Diversity (Runtime)   SC   0.86300  0.865046   0.852318 0.87816
+       B        Performance (Train F1)   RC   0.86264  0.862640   0.862640 0.86264
+       B  Performance (Train Accuracy)   RC   0.86264  0.862640   0.862640 0.86264
+       B    Performance (Train Recall)   RC   0.86264  0.862640   0.862640 0.86264
+       B Performance (Train Precision)   RC   0.86264  0.862640   0.862640 0.86264
+       B           Diversity (Runtime)   RC   0.86264  0.862640   0.862640 0.86264
+       B                       Average   RC   0.86264  0.862640   0.862640 0.86264
+     B+D Performance (Train Precision)   SC   0.86164  0.863867   0.850182 0.87800
+     B+D  Performance (Train Accuracy)   SC   0.86156  0.863778   0.850159 0.87784
+     B+D        Performance (Train F1)   SC   0.86156  0.863778   0.850159 0.87784
+     B+D    Performance (Train Recall)   SC   0.86152  0.863744   0.850093 0.87784
+       B Performance (Train Precision)   SC   0.86148  0.862824   0.854531 0.87128
+       B        Performance (Train F1)   SC   0.86148  0.862824   0.854531 0.87128
+       B    Performance (Train Recall)   SC   0.86148  0.862824   0.854531 0.87128
+       B  Performance (Train Accuracy)   SC   0.86148  0.862824   0.854531 0.87128
+       B                       Average   SC   0.86148  0.862824   0.854531 0.87128
+       B           Diversity (Runtime)   SC   0.86148  0.862824   0.854531 0.87128
+     B+D                       Average   SC   0.86116  0.863406   0.849663 0.87760
+     B+C  Performance (Train Accuracy)   SC   0.85764  0.857429   0.858702 0.85616
+     B+C Performance (Train Precision)   SC   0.85764  0.857429   0.858702 0.85616
+     B+C        Performance (Train F1)   SC   0.85764  0.857429   0.858702 0.85616
+     B+C    Performance (Train Recall)   SC   0.85764  0.857429   0.858702 0.85616
+     B+C                       Average   SC   0.85764  0.857429   0.858702 0.85616
+       D                       Average   RC   0.85560  0.855600   0.855600 0.85560
+       D           Diversity (Runtime)   RC   0.85560  0.855600   0.855600 0.85560
+       D Performance (Train Precision)   RC   0.85560  0.855600   0.855600 0.85560
+       D    Performance (Train Recall)   RC   0.85560  0.855600   0.855600 0.85560
+       D  Performance (Train Accuracy)   RC   0.85560  0.855600   0.855600 0.85560
+       D        Performance (Train F1)   RC   0.85560  0.855600   0.855600 0.85560
+       D Performance (Train Precision)   SC   0.85360  0.855996   0.842211 0.87024
+       D    Performance (Train Recall)   SC   0.85360  0.855996   0.842211 0.87024
+       D        Performance (Train F1)   SC   0.85360  0.855996   0.842211 0.87024
+       D  Performance (Train Accuracy)   SC   0.85360  0.855996   0.842211 0.87024
+       D                       Average   SC   0.85360  0.855996   0.842211 0.87024
+       D           Diversity (Runtime)   SC   0.85360  0.855996   0.842211 0.87024
+       C    Performance (Train Recall)   RC   0.83616  0.836160   0.836160 0.83616
+       C Performance (Train Precision)   RC   0.83616  0.836160   0.836160 0.83616
+       C        Performance (Train F1)   RC   0.83616  0.836160   0.836160 0.83616
+       C  Performance (Train Accuracy)   RC   0.83616  0.836160   0.836160 0.83616
+       C           Diversity (Runtime)   RC   0.83616  0.836160   0.836160 0.83616
+       C                       Average   RC   0.83616  0.836160   0.836160 0.83616
+       C  Performance (Train Accuracy)   SC   0.83464  0.832374   0.843940 0.82112
+       C        Performance (Train F1)   SC   0.83464  0.832374   0.843940 0.82112
+       C    Performance (Train Recall)   SC   0.83464  0.832374   0.843940 0.82112
+       C Performance (Train Precision)   SC   0.83464  0.832374   0.843940 0.82112
+       C           Diversity (Runtime)   SC   0.83464  0.832374   0.843940 0.82112
+       C                       Average   SC   0.83464  0.832374   0.843940 0.82112

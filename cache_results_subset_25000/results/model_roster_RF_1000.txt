@@ -1,0 +1,9 @@
+Model Roster for this Run
+==================================================
+Model A (aychang/roberta-base-imdb): RobertaForSequenceClassification(
+  (roberta): RobertaModel(
+    (embeddings): RobertaEmbeddings(
+  ...>
+Model B (RandomForestClassifier(n_estimators=1000)): RandomForestClassifier(n_estimators=1000, n_jobs=-1, random_state=42)
+Model C (SVC): <SVC object - not saved>
+Model D (XGBClassifier): <XGBClassifier object - not saved>
