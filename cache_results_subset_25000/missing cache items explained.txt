@@ -1,1 +1,1 @@
-Github restricts size of uploaded files, so the cache of models is not included. This will generate automatically if the code is run.
+Github restricts size of uploaded files, so the cache of models is not included. Graphs are also not included for this reason. These will generate automatically if the code is run.
